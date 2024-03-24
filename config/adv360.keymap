@@ -50,11 +50,11 @@
 
         layer_number {
             bindings = <
-          &kp ESC        &kp N1            &kp N2             &kp N3           &kp N4  &kp N5                &none                                                                &none  &kp N6        &kp N7          &kp N8   &kp N9     &kp N0  &kp BACKSPACE
-          &kp TAB        &kp F1            &kp F2             &kp F3           &kp F4  &kp F5                &none                                                                &none  &kp F6        &kp F7          &kp F8   &kp F9    &kp F10       &kp BSLH
-    &kp BACKSPACE        &kp N1            &kp N2             &kp N3           &kp N4  &kp N5                &none  &bt BT_SEL 4  &bt BT_CLR                   &none   &none      &none  &kp N6        &kp N7          &kp N8   &kp N9     &kp N0        &kp SQT
-        &kp LSHFT     &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET            &kp V   &kp B                                          &none                   &none                      &kp N         &kp M       &kp COMMA  &kp DOT  &kp SLASH      &kp RSHFT
- &kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_GUI     &kp LEFT_ARROW  &kp RIGHT_ARROW                    &kp SPACE         &none       &none                   &none   &none  &kp SPACE          &kp UP_ARROW  &kp DOWN_ARROW    &none      &none          &none
+          &kp ESC        &kp N1        &kp N2          &kp N3            &kp N4             &kp N5                &none                                                                &none  &kp N6        &kp N7          &kp N8   &kp N9     &kp N0  &kp BACKSPACE
+          &kp TAB        &kp F1        &kp F2          &kp F3            &kp F4             &kp F5                &none                                                                &none  &kp F6        &kp F7          &kp F8   &kp F9    &kp F10       &kp BSLH
+    &kp BACKSPACE        &kp N1        &kp N2          &kp N3            &kp N4             &kp N5                &none  &bt BT_SEL 4  &bt BT_CLR                   &none   &none      &none  &kp N6        &kp N7          &kp N8   &kp N9     &kp N0        &kp SQT
+        &kp LSHFT     &kp GRAVE     &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                                          &none                   &none                      &kp N         &kp M       &kp COMMA  &kp DOT  &kp SLASH      &kp RSHFT
+ &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_ARROW   &kp RIGHT_ARROW                               &kp SPACE         &none       &none                   &none   &none  &kp SPACE          &kp UP_ARROW  &kp DOWN_ARROW    &none      &none          &none
             >;
         };
 
@@ -63,7 +63,7 @@
           &kp ESC        &kp N1        &kp N2          &kp N3           &kp N4  &kp N5                &none                                                                   &none       &kp N6          &kp N7          &kp N8           &kp N9         &kp N0     &kp BACKSPACE
           &kp TAB         &kp Q         &kp W           &kp E            &kp R   &kp T                &none                                                                   &none   &kp INSERT        &kp HOME    &kp UP_ARROW          &kp END     &kp DELETE     &kp BACKSLASH
           &kp DEL         &kp A         &kp S           &kp D            &kp F   &kp G                &none   &none   &none                  &bl BL_TOG  &rgb_ug RGB_TOG      &none  &kp PAGE_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp SINGLE_QUOTE
-   &kp LEFT_SHIFT         &kp Z         &kp X           &kp C            &kp V   &kp B                                &none                       &none                                    &kp N           &kp M       &kp MINUS        &kp EQUAL      &kp SLASH   &kp RIGHT_SHIFT
+   &kp LEFT_SHIFT         &kp Z         &kp X           &kp C            &kp V   &kp B                                &none                       &none                                    &kp N           &kp M       &kp COMMA          &kp DOT      &kp SLASH   &kp RIGHT_SHIFT
  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_ARROW  &kp RIGHT_ARROW                    &kp SPACE   &none   &none                       &none            &none  &kp SPACE                 &kp UP_ARROW  &kp DOWN_ARROW            &none          &none             &none
             >;
         };
